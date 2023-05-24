@@ -1,0 +1,98 @@
+/* Light Themeing  */
+.light-bg {
+  background-color: #f5f6f7 !important;
+}
+
+
+
+ 
+
+.light-gray {
+  background: #7b7b7c !important;
+}
+
+
+.light-color-gray {
+    color: #7b7b7c !important;
+  }
+
+  .light-image-bg {
+    background-image: url('../images/banner/lightbanner.jpg');
+    background-position: center !important;
+  }
+   
+.footer-link-item.lightdarkhref h5 {
+  color: black;
+}.footer-link-item.lightdarkhref ul li a {
+  color: gray;
+}
+ 
+.light-graybackground{
+  background-color: gray !important;
+}
+
+
+.swiper-wrapper.light-white-bg .nft-inner {
+  background-color: white !important;
+}
+
+.swiper-wrapper.light-white-bg.light-bg-block {
+    background: unset !important;
+}.footer-link-item.second.lightdarkhref .items-price h6 {
+  color: black;
+}
+
+.light-text {
+  color: black !important;
+}
+
+button.menu-trigger.header__btn.light-text span {
+  background-color: #000;
+}
+
+.light-foot-bottom {
+    border-bottom: solid rgba(128, 128, 128, 0.507) 1px !important;
+  }
+
+.light-white-bg {
+    background-color: white !important;
+}
+a.header__nav-link.active.home-4.light-text::before {
+    background: black !important;
+}
+
+input.light-box-border::placeholder {
+    color:  #7b7b7c !important;
+}
+
+  /* Dark Themeing  */
+  .light-foot-image-bg {
+    background-image: url('../images/banner/lightfooter-bg.png');
+  }
+
+
+header.header.home-4.light-header-white-bg.header-fixed {
+    background-color: white !important;
+}
+
+
+.light-box-border{
+    border: solid 1px #adadad !important;
+
+}
+
+
+
+/* Dark Themeing  */
+.dark-image-bg {
+    background-image: url('../images/banner/darkbg-4.jpg');
+  }
+
+
+  /* Dark Themeing  */
+.dark-foot-image-bg {
+     background: linear-gradient(to top, #00000046, #00000046), url('../images/banner/darkbg-4.jpg') no-repeat top center;
+
+  }
+
+ 

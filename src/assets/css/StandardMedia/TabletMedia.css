@@ -1,0 +1,42 @@
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+     /* past here all  */
+     
+     ul#pills-tabz {
+    justify-content: center;
+}
+  .opizxc {
+    flex-wrap: wrap;
+}.inner-title.sec::before{
+display: none;.items-yog {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff0d;
+    padding-top: 10px;
+}}
+.items-yog {
+    border-bottom: solid 1px #ffffff1c;
+    padding: 10px 0px;
+}
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+     /* past here all  */
+     
+     ul#pills-tabz {
+    justify-content: center;
+}
+  .opizxc {
+    flex-wrap: wrap;
+}.inner-title.sec::before{
+display: none;.items-yog {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff0d;
+    padding-top: 10px;
+}}
+.items-yog {
+    border-bottom: solid 1px #ffffff1c;
+    padding: 10px 0px;
+}
+}
+  
