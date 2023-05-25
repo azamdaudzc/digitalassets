@@ -36,7 +36,7 @@ export default function RowProduct({ classs, option, img }) {
             <div className={"colume price"+ ' '+option}>
 
                 {option === 'no' ?
-                    <div class="wallet-btn new">  <Link to={"/checkout"}  >
+                    <div class="wallet-btn new this-one">  <Link to={"/checkout"}  >
                
                <button>Download</button>       </Link> </div>
 
