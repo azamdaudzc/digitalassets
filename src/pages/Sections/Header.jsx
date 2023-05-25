@@ -99,9 +99,9 @@ export default function Header() {
                             <li className="header__nav-item" onClick={() => PageToggle('home')}>
 
 
-                                <Link to={"/"} className={usePage === 'home' ? "header__nav-link active home-4" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                <a href={"/"} className={usePage === 'home' ? "header__nav-link active home-4" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Home
-                                </Link>
+                                </a>
 
                             </li>
 

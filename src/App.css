@@ -12,6 +12,8 @@ label {
 }
 .boxToggle{
   cursor: pointer;
+}.header__search button {
+  right: 32px !important;
 }
 .card {
   background-color: #f7f7f7;
