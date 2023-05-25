@@ -75,7 +75,7 @@ export default function Header() {
             <div className="container-fluid">
                 <div className="header__content">
                     <div className="header__logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img src={DIGITALASSETS} alt="logo" />
                         </a>
                     </div>
