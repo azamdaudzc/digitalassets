@@ -124,6 +124,10 @@ export default function Header() {
 
                             </li>
                         </ul>
+
+
+
+                        
                     </div>
                     <div className="header__actions">
                         <div className="header__action header__action--search">
@@ -171,6 +175,17 @@ export default function Header() {
                         <span />
                     </button>
                 </div>
+
+
+
+
+
+
+
+
+
+
+                
             </div>
         </header>
     )
