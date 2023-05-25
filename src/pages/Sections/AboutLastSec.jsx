@@ -15,16 +15,22 @@ export default function AboutLastSec() {
             id: 1,
             count: '05',
             img: clk1,
+            name: 'Our ',
+            nameS: ' History '
         },
         {
             id: 2,
             count: '10',
             img: clk2,
+            name: ' Our ',
+            nameS: 'Mission '
         },
         {
             id: 3,
             count: '2035',
             img: clk3,
+            name: ' Our ',
+            nameS: ' Vision'
         }, 
     ]
 
@@ -41,7 +47,7 @@ export default function AboutLastSec() {
 
 Box_arr.map((item) => (
     <>
-          <AboutBox  img={item.img}/>
+          <AboutBox  img={item.img} name={item.name}  nameS={item.nameS} />
     </>
 ))
 

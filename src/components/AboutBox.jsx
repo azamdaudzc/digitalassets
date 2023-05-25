@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from "react-redux"; 
 
-export default function AboutBox({img}) {
+export default function AboutBox({img, name, nameS}) {
 
 
     const { message } = useSelector((state) => state.message);
@@ -20,7 +20,7 @@ export default function AboutBox({img}) {
           <div className="author-details">
             <h4>
               <a href="blog-single.html" className={'abouttext'+' '+theme_class+'-text'}>
-              <span>Our</span> History
+              <span>{name}</span> {nameS}
               </a>
             </h4>
 
