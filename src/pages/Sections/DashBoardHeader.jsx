@@ -214,8 +214,8 @@ export default function DashBoardHeader() {
                                     <span><p>Profile</p></span>
                                     </Link>
                                     <hr />
-                                    <Link to='/signin'>
-                                    <span><p>Logout</p></span></Link>
+                                    <a href='/signin'>
+                                    <span><p>Logout</p></span></a>
                                 </div>
                                 :
                                 <></>
