@@ -20,9 +20,19 @@ export default function ProductBar({ AccessPrice, AccessButton, id }) {
 
     const [openIndex, setOpenIndex] = useState();
 
-    const handleToggle = () => {
-        setOpenIndex(!openIndex);
+    const handleToggle = (id) => {
+
+
+
+        setOpenIndex(id);
     };
+    window.addEventListener('click', function (event) {
+        const dropdown = document.querySelector('.dropdown');
+        if (!dropdown.contains(event.target)) {
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+            dropdownMenu.style.display = 'none';
+        }
+    });
     return (
         <>
 
@@ -80,11 +90,14 @@ export default function ProductBar({ AccessPrice, AccessButton, id }) {
                                 {AccessButton === "Dots" ?
                                     <>
                                         <div className='fullItemBottom'>
-                                            <div className='tripppleRow'>
-                                                <img src={TrippleDots} alt="" srcset="" onClick={() => handleToggle(id)} id={'innerdrop' + id} />
+                                            <div className='tripppleRow'> 
                                             </div>
 
-                                            {openIndex ?
+                                            <div class="dropdown newzxc">
+                                                <div class="dropdown-toggle" tabindex="0"> <img src={TrippleDots} alt="" srcset=""   /></div>
+                                               
+
+                                                <ul class="dropdown-menu">
                                                 <div className='innerMenuDrop' id={'innerdrop' + id}>
                                                     <span>View</span>
                                                     <hr />
@@ -92,13 +105,10 @@ export default function ProductBar({ AccessPrice, AccessButton, id }) {
                                                     <hr />
                                                     <span>Delete</span>
                                                 </div>
-
-                                                :
-
-                                                <></>
-
-
-                                            }
+                                                </ul>
+                                            </div>
+                                            
+                                           
 
 
 
