@@ -18,7 +18,7 @@ export default function Products() {
             <div className='ProductDOwnlloadSection'>
 
                 <div className='container'>
-                    <ScrollSection  AccessButton={'Dots'}  height={'580px'} Title={'Products'} />
+                    <ScrollSection  AccessButton={'Dots'}  height={'580px'} Title={'Products'}   />
                 </div>
 
             </div>

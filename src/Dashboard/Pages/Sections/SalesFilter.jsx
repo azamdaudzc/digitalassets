@@ -23,9 +23,9 @@ export default function SalesFilter() {
                                         <p >Filters:</p>
                                     </div>
                                     <div className="AllOptions">
-                                        <div class="fields"> <select name="" id="" class="dark-text dark-box-border"><option value="">Month</option><option value="">Month</option></select></div>
-                                        <div class="fields"> <select name="" id="" class="dark-text dark-box-border"><option value="">Month</option><option value="">Month</option></select></div>
-                                        <div class="fields"> <select name="" id="" class="dark-text dark-box-border"><option value="">Month</option><option value="">Month</option></select></div>
+                                        <div class="fields"> <select name="" id="" class="dark-text dark-box-border"><option value="">All</option><option value="">Month</option></select></div>
+                                        <div class="fields"> <select name="" id="" class="dark-text dark-box-border"><option value="">From</option><option value="">Month</option></select></div>
+                                        <div class="fields"> <select name="" id="" class="dark-text dark-box-border"><option value="">To</option><option value="">Month</option></select></div>
                                     </div>
                                     <div className="searchButton">
                                         <div class="Editablebutton"><button><img src={searchBtn} alt="" srcset="" /></button></div>

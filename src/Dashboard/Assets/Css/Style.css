@@ -12,6 +12,8 @@ body {
 }
 .Tick_signupi a {
   width: 100%;
+}.fullItemBottom {
+  position: relative;
 }
 .innder_container {
   align-items: center;
@@ -26,16 +28,47 @@ body {
   border: 1px solid #ffffff;
   border-radius: 20px;
   width: 640px;
+}.innerMenuDrop.profilezz a {
+  height: 0;
+  margin: 0;
+  padding: 0;
 }
 .BBoxCOntent.newzz {
   width: 100%;
+}
+.innerMenuDrop span {
+  color: #ffffff6b;
+  margin: 34px 0px;
+  font-size: 13px;
+}
+.innerMenuDrop hr {
+  margin: 3px 0px;
+}.innerMenuDrop.profilezz p {
+  font-size: 17px;
+  margin: 1px 0px;
+}.innerMenuDrop.profilezz {
+  border-radius: 4px;
+  top: 56px;
+  width: 88px;
+}
+.innerMenuDrop {
+  position: absolute;
+  box-shadow: 0px 0px 12px 1px #ffffff21;
+  right: 0px;
+  border-radius: 6px;
+  padding: 7px 0px;
+  width: 73px;
+  background: #131313;
+  text-align: center;
+  top: 31px;
 }
 .SecoundIcons {
   margin: 0px 15px;
 }
 .LoginTitle {
   text-align: center;
-}.buttonSubmit {
+}
+.buttonSubmit {
   margin-top: 6px;
 }
 .ForgetPasswordSection {
@@ -205,6 +238,7 @@ body {
   border-radius: 11px;
 }
 .wallet-btn.dashboard {
+  position: relative;
   padding-left: 17px;
 }
 .header__menu.ms-auto.new.class {
@@ -450,6 +484,7 @@ span.hzxcw {
 }
 .tripppleRow img {
   margin-left: 31px;
+  cursor: pointer;
   width: 5px;
 }
 .inputbox {
@@ -763,7 +798,7 @@ h5.lightwhiteGeen {
   font-weight: 400;
 }
 
-.header__nav-item{
+.header__nav-item {
   height: unset !important;
 }
 
@@ -772,8 +807,6 @@ h5.lightwhiteGeen {
   height: 450px;
 }
 
-
 .container.sales.FIlterData::-webkit-scrollbar {
   width: 0px;
 }
-

@@ -23,6 +23,10 @@ export default function DashBoardHeader() {
     const [usePage, setPage] = useState(1);
     const [useTogglesec, setTogglesec] = useState(true);
 
+    const [usetogglethird, settogglethird] = useState(false);
+
+
+
     useEffect(() => {
         var theme = localStorage.getItem("theme");
         if (theme) {
@@ -50,7 +54,9 @@ export default function DashBoardHeader() {
         }
     }, [0]);
 
-
+    function toggleMenuProbar(e) {
+        settogglethird(!usetogglethird);
+    }
 
     function CallNote(theme) {
         localStorage.setItem("theme", theme);
@@ -190,22 +196,34 @@ export default function DashBoardHeader() {
                             </div>
 
                         </div>
-                        <Link to={'/profile-user'}>
-                            <div className="wallet-btn dashboard">
 
-                                <div className="profile">
-                                    <div className="titleProfile">
-                                        <h6>Sarah Kevin</h6>
-                                        <p>Seller</p>
-                                    </div>
-                                    <div className="ProImage">
-                                        <img src={ProfileImage} alt="" srcset="" />
-                                    </div>
+                        <div className="wallet-btn dashboard">
+
+                            <div className="profile" onClick={toggleMenuProbar}>
+                                <div className="titleProfile">
+                                    <h6>Sarah Kevin</h6>
+                                    <p>Seller</p>
                                 </div>
+                                <div className="ProImage">
+                                    <img src={ProfileImage} alt="" srcset="" />
+                                </div>
+                            </div>
+                            {usetogglethird ?
+                                <div className='innerMenuDrop profilezz' id={'innerdrop'}>
+                                    <Link to='/profile-user'>
+                                    <span><p>Profile</p></span>
+                                    </Link>
+                                    <hr />
+                                    <Link to='/signin'>
+                                    <span><p>Logout</p></span></Link>
+                                </div>
+                                :
+                                <></>
+
+                            }
 
 
-
-                            </div> </Link>
+                        </div>
                     </div>
                     <button className={"menu-trigger header__btn" + ' ' + theme_class + '-text'} id="menawu05" onClick={ToggleMob}>
                         <span />

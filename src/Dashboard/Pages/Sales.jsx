@@ -88,7 +88,7 @@ export default function Sales() {
     return (
         <>
 
-            <Banner AccessButton={"Yes"} Title={"Sales"} Img={fullhome} />
+            <Banner AccessButton={"no"} Title={"Sales"} Img={fullhome} />
 
 
             <div className='UpperBoxContent sales'>
