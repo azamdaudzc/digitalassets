@@ -3,6 +3,78 @@
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -131,6 +203,78 @@ display: none;.items-yog {
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -259,6 +403,78 @@ display: none;.items-yog {
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -389,6 +605,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -517,6 +805,78 @@ display: none;.items-yog {
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -645,6 +1005,78 @@ display: none;.items-yog {
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -826,6 +1258,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -954,6 +1458,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1082,6 +1658,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1212,6 +1860,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1340,6 +2060,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1468,6 +2260,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1598,6 +2462,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1726,6 +2662,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1854,6 +2862,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -1984,6 +3064,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2112,6 +3264,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2240,6 +3464,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2369,6 +3665,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2497,6 +3865,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2625,6 +4065,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2755,6 +4267,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -2883,6 +4467,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3011,6 +4667,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3141,6 +4869,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3269,6 +5069,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3397,6 +5269,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3527,6 +5471,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 3) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3655,6 +5671,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3783,6 +5871,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -3913,6 +6073,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 4) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -4041,6 +6273,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -4169,6 +6473,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -4299,6 +6675,78 @@ display: none;.items-yog {
 /* Portrait and Landscape */
 @media screen and (device-width: 480px) and (device-height: 800px) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -4427,6 +6875,78 @@ display: none;.items-yog {
 /* Portrait */
 @media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }
@@ -4555,6 +7075,78 @@ display: none;.items-yog {
 /* Landscape */
 @media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
   /* past here all  */
+  a.linkaddto {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+  .container.flxLoginPage {
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    display: flex !important;
+    padding: 0px 31px;
+}.innder_container {
+    display: unset !important;
+    height: unset !important;
+    position: unset !IMPORTANT;
+    width: 100%;
+    padding: 17px;
+}
+  footer.darhboardFooter {
+    position: unset;
+    margin-top: 30px;
+}
+  header.header.home-4.dark-header-white-bg {
+    background-color: black;
+}header.header.home-4.light-header-white-bg {
+    background-color: white;
+}
+  .ProductPricesF {
+    margin-top: 9px;
+    width: 100%;
+}
+  .innerProductbar {
+    flex-wrap: wrap;
+}.innerbtnDOwnload {
+    left: 0;
+}.BProductBar {
+    width: 100%;
+}
+  .Editablebutton.addProduct {
+    width: 70%;
+}
+  .flexUserRow.news {
+    justify-content: center;
+}.AData {
+    width: 50%;
+    text-align: center;
+}.flexUserRow.news h6 {
+    margin: 6px 0px;
+}
+  .flexUserRow {
+    flex-wrap: wrap;
+} 
+
+.AData.unset-bg {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}.BData.unset-bg.bgCenter {
+    width: 100%;
+}.CData.unset-bg {
+    display: flex;
+    justify-content: center;
+}.DData.unset-bg {
+    width: 100%;
+    justify-content: center;
+}.unset-bg {
+    margin-bottom: 7px;
+}
+  .CardBox {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
   a.header__nav-link.active.home-4.light-text::before {
     background: white !important;
 }

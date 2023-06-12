@@ -1,0 +1,771 @@
+body {
+  background-color: black !important;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+.flxLoginPage {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.Tick_signupi a {
+  width: 100%;
+}
+.innder_container {
+  align-items: center;
+  display: grid;
+  padding: 58px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 663px;
+  height: 722px;
+  left: calc(50% - 663px / 2 + 0.5px);
+  top: calc(50% - 722px / 2 + 0.5px);
+  background: rgba(41, 41, 41, 0.5);
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  width: 640px;
+}
+.BBoxCOntent.newzz {
+  width: 100%;
+}
+.SecoundIcons {
+  margin: 0px 15px;
+}
+.LoginTitle {
+  text-align: center;
+}
+.ForgetPasswordSection {
+  margin-top: 26px;
+}
+.ediableDes {
+  height: 197px;
+  color: black;
+  background: white;
+  border-radius: 4px;
+}
+.InnerFilters {
+  align-items: center;
+  display: flex;
+}
+.AllOptions {
+  align-items: center;
+  padding-left: 12px;
+  width: 100%;
+  display: flex;
+}
+.LoginTitle p {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.Resetpotim p {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+.LoginTitle .title span {
+  color: #f3a735;
+}
+.Tick_signupi {
+  margin-top: 18px;
+}
+.fields label {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.Inner_forms .fields input {
+  background: white;
+  color: black;
+  border-radius: 3px !important;
+  padding: 11px 19px;
+  font-size: 15px;
+}
+.Label_flex {
+  display: flex;
+  align-items: center;
+}
+.AFLex {
+  width: 100%;
+}
+.bFLEX {
+  padding-top: 6px;
+  width: 100%;
+  text-align: end;
+  font-size: 14px;
+  color: #f3a735;
+}
+
+.fields {
+  margin-bottom: 9px;
+  width: 100%;
+  margin-right: 12px;
+}
+.flexCheck p {
+  margin: 0;
+  padding-left: 12px;
+  font-size: 13px;
+  font-weight: 300;
+}
+.flexCheck {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.Tick_signupi button {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  left: 690px;
+  top: 632px;
+  background: #f3a735;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+/* ///////////////////////////////////  */
+
+.Login_last_section {
+  margin-top: 29px;
+  text-align: center;
+}
+.SelectOption p {
+  font-weight: 300;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.SelectOption p span {
+  color: #f3a735;
+}
+.DividerMilti {
+  width: 100%;
+}
+.hrA.fullHR {
+  width: 100%;
+}
+.middle_divider {
+  display: flex;
+  padding: 2px 128px;
+  justify-content: center;
+}
+.DividerMilti span {
+  width: 99px;
+}
+.DividerMilti {
+  width: 100%;
+}
+.DividerMilti {
+  display: flex;
+  align-items: center;
+}
+.LoginSocialIcons {
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+.middle_divider hr {
+  margin: 2px !important;
+  padding: 0 !important;
+}
+
+.profile {
+  align-items: center;
+  cursor: pointer;
+  text-align: end;
+  display: flex;
+}
+.titleProfile {
+  display: grid;
+  padding-right: 3px;
+  align-items: center;
+}
+.titleProfile h6 {
+  font-size: 16px;
+}
+.titleProfile p {
+  padding: 0;
+  font-size: 15px;
+  margin: 0;
+  color: #f3a735;
+}
+.ProImage img {
+  width: 91%;
+  border: solid 1px #f3a735;
+  border-radius: 11px;
+}
+.wallet-btn.dashboard {
+  padding-left: 17px;
+}
+.header__menu.ms-auto.new.class {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+a.header__nav-link.active.home-4.newDash.dark-text::before {
+  content: "" !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+a.header__nav-link.active.home-4.newDash.dark-text {
+  padding: 0px 21px;
+  text-align: center;
+  height: 40px;
+  font-weight: 600;
+  color: black;
+  background: #f3a735;
+  border-radius: 6px;
+}
+button#menawu05 {
+  margin-left: 15px;
+}
+.MainBanner {
+  padding-bottom: 137px !important;
+  padding: 117px 0px;
+}
+.bottomTxt {
+  display: flex;
+}
+.titleBanner h3 {
+  font-weight: 400;
+}
+.textte {
+  color: #ffffffc4;
+}
+.imgtzx {
+  padding-right: 4px;
+  display: flex;
+  align-items: center;
+}
+span.hzxcw {
+  position: relative;
+  font-size: 10px;
+  margin: 0px 4px;
+  top: -3px;
+}
+.CardBox {
+  padding: 46px 27px;
+  position: relative;
+  width: 369px;
+  height: 192px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.FlexBoxCOntent {
+  display: flex;
+}
+.AboxCOntnet {
+  width: 50%;
+}
+.AboxCOntnet img {
+  width: 62px;
+}
+.AboxCOntnet h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.BBoxCOntent {
+  text-align: end;
+  width: 50%;
+}
+.BBoxCOntent h1 {
+  color: #f3a735;
+  margin-top: 34px;
+  font-weight: 600;
+  font-size: 56px;
+}
+.rightCardCircle {
+  position: absolute;
+  right: 0;
+  top: -7px;
+  z-index: 0;
+}
+.InnerBoxContent {
+  z-index: 99;
+  width: 100%;
+}
+.UpperBoxContent {
+  overflow: hidden;
+  margin-top: -106px;
+}
+.innerProductSection {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.mainSection_scroll {
+  padding: 24px;
+  box-sizing: border-box;
+  /* position: absolute; */
+  width: 100%;
+  /* height: 555px; */
+  left: 386px;
+  top: 399px;
+  background: #1e1e1e;
+  border: 1.5px solid #000000;
+  border-radius: 10px;
+}
+.TitleSrol h5 {
+  font-weight: 500;
+}
+.innnerScroller {
+  height: 490px;
+  overflow-y: auto;
+}
+.innnerScroller::-webkit-scrollbar {
+  width: 0;
+}
+.ProductBar {
+  align-items: center;
+  margin-bottom: 12px;
+  display: grid;
+  background: #292929;
+  border-radius: 10px;
+  padding: 25px 26px;
+}
+.innerProductbar {
+  display: flex;
+  align-items: center;
+}
+.AProductBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.AImage {
+  padding-right: 13px;
+}
+.BProductBar {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.StyleImgPro img {
+  background-color: #000;
+  border: 2px solid transparent;
+  border-image: linear-gradient(125deg, #ffe53b 0%, #ff2525 37%, #fd00ff 100%);
+  border-image-slice: 1;
+  height: 90px;
+  width: 69px;
+}
+.AContnet {
+  display: flex;
+  align-items: center;
+}
+.ClockCOntnet img {
+  width: 16px;
+}
+.ClockCOntnet span {
+  font-size: 14px;
+  padding-left: 4px;
+  color: #888888;
+}
+.innerContentProduct h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  margin: 8px 0px;
+}
+.innerContentProduct p {
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  color: #888888;
+}
+.BProductBar {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.ProductPricesF h5 {
+  font-weight: 400;
+}
+.ProductPricesF h5 span {
+  color: #00edc5;
+}
+.ViewsProduct {
+  margin-top: 4px;
+}
+.ViewsProduct span {
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  color: #888888;
+}
+.DownloadProduct {
+  padding-left: 5px;
+}
+.DownloadProduct span {
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  color: #888888;
+}
+.TitleSrol {
+  width: 100%;
+}
+.FlexTIleScroller {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 9px;
+}
+.ProductDOwnlloadSection {
+  margin-bottom: 40px;
+  margin-top: -106px;
+}
+.innerbtnDOwnload {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  left: -21px;
+}
+.innerbtnDOwnload img {
+  width: 16px;
+  margin-right: 8px;
+}
+.innerbtnDOwnload span {
+  text-decoration: underline;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #f3a735;
+}
+.tripppleRow img {
+  margin-left: 31px;
+  width: 5px;
+}
+.inputbox {
+  background: #ffffff00;
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+  border: solid 1px #ffffff29;
+  padding: 2px 1px;
+  display: flex;
+  justify-content: end;
+}
+.inputbox button {
+  margin: 0px 0px;
+  color: white;
+  width: 102px;
+  height: 33px;
+  left: calc(50% - 93px / 2 + 41px);
+  top: 239px;
+  background: linear-gradient(
+    180deg,
+    #bababa 0%,
+    rgba(200, 200, 200, 0) 141.94%
+  );
+  border-radius: 6px;
+}
+.buttonSubmit button {
+  width: 138px;
+  font-weight: 600;
+  height: 50px;
+  left: calc(50% - 138px / 2 - 472.5px);
+  top: calc(50% - 50px / 2 + 239px);
+  background: #f3a735;
+  border-radius: 6px;
+}
+.imageBorder img {
+  left: 689.99px;
+  border: solid #424242;
+  top: 136px;
+  background: #424242;
+  border-radius: 6px;
+}
+.buttonSubmit.newzz {
+  text-align: center;
+  margin-top: 15px;
+}
+.buttonSubmit.newzz button {
+  height: 39px;
+}
+span.lightgreen-text {
+  color: #179c77 !important;
+}
+.rightCardCircle.lightoppa-bg-bar {
+  opacity: 0.1;
+}
+.addProductPage {
+  margin-top: -103px;
+}
+.AllCOntentSect {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+footer.darhboardFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.header__nav-item {
+  height: auto;
+}
+.innnerScroller.newdash {
+  overflow-y: unset;
+  height: auto;
+}
+:root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.ProfileImage img {
+  left: 689.99px;
+  border: solid #424242;
+  top: 136px;
+  margin: 10px 0px;
+  background: #424242;
+  border-radius: 6px;
+  width: 154px;
+}
+.buttonSubmit.newzz.nxt {
+  text-align: start;
+}
+.Editablebutton button {
+  width: 40px;
+  border: 0;
+  height: 40px;
+  left: calc(50% - 40px / 2 + 554px);
+  top: calc(50% - 40px / 2 - 13px);
+  background: #f3a735;
+  border-radius: 6px;
+}
+.InnerBanner.container {
+  display: flex;
+}
+.TItlebanner {
+  width: 100%;
+}
+.AboxCOntnet.nezx {
+  width: 100%;
+  display: flex;
+}
+.AboxCOntnet.nezx img {
+  position: relative;
+  width: 9px;
+  top: 9px;
+  left: 4px;
+}
+.CardBox.newsales {
+  overflow: hidden;
+  padding: 18px 27px;
+  height: 130px;
+}
+.AboxCOntnet.nezx h3 {
+  align-items: center;
+  font-size: 20px;
+}
+.BBoxCOntent.newzz h1 {
+  font-size: 45px;
+}
+.UpperBoxContent.sales {
+  overflow: hidden;
+  margin-top: -65px;
+}
+.InnerFilters .fields {
+  margin-bottom: 0;
+}
+.labelOPtions {
+  display: flex;
+  align-items: center;
+}
+.labelOPtions p {
+  margin: 0;
+}
+.InnerFilters .fields select {
+  color: white;
+}
+a.linkaddto {
+  width: 13%;
+}
+.FilterOption {
+  margin: 12px 0px;
+}
+.container.Filter_sales {
+  margin-top: 22px;
+}
+.flexUserRow h6 {
+  font-weight: 500;
+}
+.flexUserRow {
+  margin-bottom: 18px;
+  display: flex;
+}
+header {
+  z-index: 9999999 !important;
+}
+.AData {
+  width: 34%;
+  text-align: center;
+}
+.fullwidh-dash {
+  padding: 4px 13px;
+
+  text-align: center;
+  background: #1e1e1e;
+}
+.fullwidh-dash span {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+a.header__nav-link.active.home-4.newDash.light-text {
+  padding: 0px 21px;
+  text-align: center;
+  height: 40px;
+  font-weight: 600;
+  color: black;
+  background: #f3a735;
+  border-radius: 6px;
+}
+a.header__nav-link.active.home-4.newDash.light-text::before {
+  content: "" !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+.Editablebutton.addProduct button span {
+  margin-top: -3px;
+  font-size: 28px;
+  margin-right: 7px;
+}
+.Editablebutton.addProduct button {
+  padding-top: 4px !important;
+  font-size: 15px;
+  padding: 2px 8px;
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BData {
+  width: 43%;
+  text-align: center;
+}
+.flexUserRow.news {
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  padding: 14px 0px;
+  border-top: 0 !important;
+  border: solid 1px gray;
+}
+.CData {
+  text-align: center;
+  width: 100%;
+}
+.DData {
+  text-align: center;
+  width: 36%;
+}
+.container.sales.FIlterData {
+  margin-top: 18px;
+  margin-bottom: 50px;
+}
+
+.unset-bg {
+  background-color: unset !important;
+}
+.SalesCard {
+  display: flex;
+  width: 95%;
+  height: 60px;
+  background: #292929;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.SalesCard h6 {
+  font-weight: 400;
+}
+.BData.unset-bg.bgCenter {
+  display: flex;
+  justify-content: center;
+}
+.SalesCard img {
+  margin-right: 11px;
+}
+.CData.unset-bg {
+  display: flex;
+  justify-content: center;
+}
+.SalesCard span {
+  font-size: 13px;
+}
+.SalesCard h5 {
+  height: 27px;
+  left: calc(50% - 54px / 2 + 512px);
+  top: calc(50% - 27px / 2 + 19.5px);
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  display: flex;
+  color: #00edc5;
+  align-items: center;
+}
+.DData.unset-bg {
+  display: flex;
+  justify-content: end;
+}
+
+h5.lightwhiteGeen {
+  color: #179c77 !important;
+}
+
+.Login_fluid {
+  width: 100%;
+  background-image: url("../../../assets/images/bgLoign.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Resetpotim a {
+  width: 100%;
+}
+.ForgetPasswordSection h3 {
+  font-size: 33px;
+  margin-bottom: 19px;
+}
+
+
+.header__nav-item{
+  height: unset !important;
+}
+
+.container.sales.FIlterData {
+  overflow: scroll;
+  height: 482px;
+}
+
+
+.container.sales.FIlterData::-webkit-scrollbar {
+  width: 0px;
+}
+

@@ -1,0 +1,6 @@
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1400px){
+    .AllCOntentSect { 
+        height: 1137px !important; 
+    }
+}

@@ -4,13 +4,12 @@ import React, { useEffect, useState } from 'react'
 import sun from "../../assets/images/sun.png";
 import weather from "../../assets/images/weather.png";
 import DIGITALASSETS from "../../assets/images/DIGITALASSETS.png";
-
+import ProfileImage from "../../assets/images/ProfileImage.png";
 
 import { setMessage } from "../../slices/message";
 
 
-export default function Header() {
-
+export default function DashBoardHeader() {
     const dispatch = useDispatch();
     const { message } = useSelector((state) => state.message);
     const theme_class = message;
@@ -18,12 +17,14 @@ export default function Header() {
     const [useToggle, setToggle] = useState(1);
     const [usePage, setPage] = useState(1);
 
-   
+
+    const [useTogglesec, setTogglesec] = useState(true);
+
     useEffect(() => {
- 
+
         var theme = localStorage.getItem("theme");
         dispatch(setMessage(theme));
-        
+
         var Page = localStorage.getItem("page");
         setPage(Page)
 
@@ -33,10 +34,10 @@ export default function Header() {
             document.body.setAttribute('style', 'background-color: #f5f6f7 !important;');
             setToggle(26)
         }
- 
+
     }, [0]);
 
-  
+
 
     function CallNote(theme) {
         localStorage.setItem("theme", theme);
@@ -45,7 +46,7 @@ export default function Header() {
 
 
     function toggleUse() {
-        
+
 
         if (useToggle === 1) {
             setToggle(26)
@@ -53,13 +54,13 @@ export default function Header() {
             document.body.setAttribute('style', 'background-color: #f5f6f7 !important;');
             localStorage.setItem('theme', 'light');
 
-       
+
         } else {
             setToggle(1)
             dispatch(setMessage('dark'));
             document.body.setAttribute('style', 'background-color: black !important;');
             localStorage.setItem('theme', 'dark');
-          
+
         }
 
 
@@ -72,6 +73,22 @@ export default function Header() {
     }
 
 
+    function ToggleMob() {
+
+
+
+        if (useTogglesec) {
+            setTogglesec(!useTogglesec)
+            document.getElementById('dropmenudash').style.right = '215px'
+
+        } else {
+            setTogglesec(!useTogglesec)
+            document.getElementById('dropmenudash').style.right = '0px'
+
+        }
+
+
+    }
     return (
         <header className={"header home-4" + ' ' + theme_class + '-header-white-bg'}>
             <div className="container-fluid">
@@ -81,47 +98,44 @@ export default function Header() {
                             <img src={DIGITALASSETS} alt="logo" />
                         </a>
                     </div>
-                    <form action="#" className="header__search">
-                        <input
-                            type="text"
-                            placeholder="Search items, collections, and creators"
-                            className={theme_class + '-box-border'}
-                        />
-                        <button type="button">
-                            <i className={"icofont-search-2" + ' ' + theme_class + '-color-gray'} />
-                        </button>
-                        <button type="button" className="close">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" />
-                            </svg>
-                        </button>
-                    </form>
-                    <div className="header__menu ms-auto">
+
+
+                    <div className="header__menu ms-auto new class" id="dropmenudash">
                         <ul className="header__nav mb-0">
                             <li className="header__nav-item" onClick={() => PageToggle('home')}>
 
 
-                                <a href={"/"} className={usePage === 'home' ? "header__nav-link active home-4" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
-                                    Home
-                                </a>
+                                <Link to={"/dashboard"} className={usePage === 'home' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                    Dashboard
+                                </Link>
 
                             </li>
 
                             <li className="header__nav-item" onClick={() => PageToggle('about')}>
 
-                                <Link to={"/about"} className={usePage === 'about' ? "header__nav-link active home-4" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
-                                    About Us
+                                <Link to={"/download"} className={usePage === 'about' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                    Downloads
                                 </Link>
                             </li>
                             <li className="header__nav-item" onClick={() => PageToggle('product')}>
-                                <Link to={"/products"} className={usePage === 'product' ? "header__nav-link active home-4" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                <Link to={"/products-dash"} className={usePage === 'product' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Products
+                                </Link>
+
+                            </li> <li className="header__nav-item" onClick={() => PageToggle('Sales')}>
+                                <Link to={"/Sales"} className={usePage === 'Sales' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                    Sales
+                                </Link>
+
+                            </li>   <li className="header__nav-item d-none" onClick={() => PageToggle('product')}>
+                                <Link to={"/products"} className={usePage === 'product' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                    Sales
                                 </Link>
 
                             </li>
                             <li className="header__nav-item d-none" onClick={() => PageToggle('product')}>
-                                <Link to={"/products"} className={usePage === 'product' ? "header__nav-link active home-4" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
-                                    Products
+                                <Link to={"/products"} className={usePage === 'product' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                                    Sales
                                 </Link>
 
                             </li>
@@ -129,8 +143,11 @@ export default function Header() {
 
 
 
-                        
+
                     </div>
+
+
+
                     <div className="header__actions">
                         <div className="header__action header__action--search">
                             <button className="header__action-btn" type="button">
@@ -151,7 +168,7 @@ export default function Header() {
 
                                         {useToggle === 1 ?
 
-                                             <img src={sun} alt="" srcset="" />
+                                            <img src={sun} alt="" srcset="" />
                                             :
 
                                             <img src={weather} alt="" srcset="" />
@@ -167,11 +184,24 @@ export default function Header() {
                             </div>
 
                         </div>
-                        <div className="wallet-btn">
-                            <Link to="/signup">  <button>Login/SignUp</button></Link>
-                        </div>
+                        <Link to={'/profile-user'}>
+                            <div className="wallet-btn dashboard">
+
+                                <div className="profile">
+                                    <div className="titleProfile">
+                                        <h6>Sarah Kevin</h6>
+                                        <p>Seller</p>
+                                    </div>
+                                    <div className="ProImage">
+                                        <img src={ProfileImage} alt="" srcset="" />
+                                    </div>
+                                </div>
+
+
+
+                            </div> </Link>
                     </div>
-                    <button className={"menu-trigger header__btn" + ' ' + theme_class + '-text'} id="menu05">
+                    <button className={"menu-trigger header__btn" + ' ' + theme_class + '-text'} id="menawu05" onClick={ToggleMob}>
                         <span />
                         <span />
                         <span />
@@ -187,7 +217,7 @@ export default function Header() {
 
 
 
-                
+
             </div>
         </header>
     )

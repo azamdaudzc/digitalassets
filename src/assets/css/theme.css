@@ -11,20 +11,36 @@
   background: #7b7b7c !important;
 }
 
+.CardBox.lightdash-bg-bar{
+  background: unset;
+  background-image: url('../images/banner/lightbanner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.ProductBar.lightdash-bg-bar {
+  background: unset;
+  background-image: url('../images/banner/lightbanner.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 .light-color-gray {
     color: #7b7b7c !important;
   }
 
-  .light-image-bg {
+  .lightdarkdash-bg-bar {
     background-image: url('../images/banner/lightbanner.jpg');
     background-position: center !important;
   }
+
+ 
    
 .footer-link-item.lightdarkhref h5 {
   color: black;
 }.footer-link-item.lightdarkhref ul li a {
   color: gray;
+}.light-image-bg-filter {
+  background: #cfabaa !important;
 }
  
 .light-graybackground{
@@ -81,7 +97,19 @@ header.header.home-4.light-header-white-bg.header-fixed {
 
 }
 
+.light-image-bg {
+  background-image: url('../images/banner/lightbanner.jpg');
+  background-position: center !important;
+}
 
+.light-dash-image-bg{
+  background-image: url('../images/banner/lightbanner.jpg');
+  background-position: center !important;
+}
+
+.dark-dash-image-bg{
+  background-image: url('../images/backblack.png');
+}
 
 /* Dark Themeing  */
 .dark-image-bg {

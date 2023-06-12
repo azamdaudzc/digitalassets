@@ -8,9 +8,10 @@ import lock from "../assets/images/lock.png";
 import merchant from "../assets/images/merchant.png";
 
 export default function CheckOutForm({ classs, option, img }) {
+    
     const { message } = useSelector((state) => state.message);
-
     const theme_class = message;
+    
     return (
         <div
             className={"new-bar checkout" + " " + classs + " " + theme_class + "-white-bg"}

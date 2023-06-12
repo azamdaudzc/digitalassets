@@ -5,7 +5,7 @@ const initialState = {};
 const messageSlice = createSlice({
   name: "message",
   initialState,
-  reducers: {
+  reducers: { 
     setMessage: (state, action) => {
       return { message: action.payload };
     },
@@ -15,7 +15,8 @@ const messageSlice = createSlice({
   },
 });
 
+ 
 const { reducer, actions } = messageSlice;
 
-export const { setMessage, clearMessage } = actions
+export const { setLayout, setMessage, clearMessage  } = actions
 export default reducer;

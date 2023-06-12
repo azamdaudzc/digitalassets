@@ -2,20 +2,18 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {};
 
-const messageSlice = createSlice({
-  name: "message",
+const themeSlice = createSlice({
+  name: "theme",
   initialState,
-  reducers: {
-    setMessage: (state, action) => {
-      return { message: 'action.payload' };
-    },
-    clearMessage: () => {
-      return { message: "" };
-    },
+  reducers: { 
+    setLayout: (state, action) => {
+        return { theme: action.payload };
+      }, 
   },
 });
 
-const { reducer, actions } = messageSlice;
+ 
+const { reducer, actions } = themeSlice;
 
-export const { setMessage, clearMessage } = actions
+export const { setLayout  } = actions
 export default reducer;
