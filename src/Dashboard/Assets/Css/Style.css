@@ -466,6 +466,7 @@ span.hzxcw {
 .inputbox button {
   margin: 0px 0px;
   color: white;
+  border: 0;
   width: 102px;
   height: 33px;
   left: calc(50% - 93px / 2 + 41px);
@@ -480,6 +481,7 @@ span.hzxcw {
 .buttonSubmit button {
   width: 138px;
   font-weight: 600;
+  border: 0;
   height: 50px;
   left: calc(50% - 138px / 2 - 472.5px);
   top: calc(50% - 50px / 2 + 239px);
@@ -757,7 +759,10 @@ h5.lightwhiteGeen {
   font-size: 33px;
   margin-bottom: 19px;
 }
-
+.innerContentProduct span {
+  font-size: 14px;
+  font-weight: 400;
+}
 
 .header__nav-item{
   height: unset !important;
