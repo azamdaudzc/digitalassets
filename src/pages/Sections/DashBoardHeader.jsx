@@ -10,31 +10,44 @@ import { setMessage } from "../../slices/message";
 
 
 export default function DashBoardHeader() {
+
+
+
+
+
     const dispatch = useDispatch();
     const { message } = useSelector((state) => state.message);
     const theme_class = message;
 
     const [useToggle, setToggle] = useState(1);
     const [usePage, setPage] = useState(1);
-
-
     const [useTogglesec, setTogglesec] = useState(true);
 
     useEffect(() => {
-
         var theme = localStorage.getItem("theme");
-        dispatch(setMessage(theme));
+        if (theme) {
+            console.log('');
+        } else {
+            localStorage.setItem('theme', 'dark');
 
+        }
+        var theme = localStorage.getItem("theme");
+        if (theme) {
+            dispatch(setMessage(theme));
+
+        } else {
+            dispatch(setMessage(theme));
+        }
         var Page = localStorage.getItem("page");
         setPage(Page)
 
         if (theme === 'dark') {
             document.body.setAttribute('style', 'background-color: black !important;');
+
         } else {
             document.body.setAttribute('style', 'background-color: #f5f6f7 !important;');
             setToggle(26)
         }
-
     }, [0]);
 
 

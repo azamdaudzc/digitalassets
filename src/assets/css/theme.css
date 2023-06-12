@@ -6,7 +6,10 @@
 
 
  
-
+.ediableDes.light-text.light-bg-des.light-box-border {
+  background: white !important;
+  border: 0 !important;
+}
 .light-gray {
   background: #7b7b7c !important;
 }
@@ -18,6 +21,13 @@
   background-position: center;
 }
 .ProductBar.lightdash-bg-bar {
+  background: unset;
+  background-image: url('../images/banner/lightbanner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.light-bg-loginimg{
   background: unset;
   background-image: url('../images/banner/lightbanner.jpg');
   background-size: cover;

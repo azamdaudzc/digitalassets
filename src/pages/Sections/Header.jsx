@@ -18,22 +18,33 @@ export default function Header() {
     const [useToggle, setToggle] = useState(1);
     const [usePage, setPage] = useState(1);
 
+    const [useThisTheme, setThisTheme] = useState('dark');
    
     useEffect(() => {
- 
-        var theme = localStorage.getItem("theme");
-        dispatch(setMessage(theme));
-        
+        var theme = localStorage.getItem("theme"); 
+        if (theme) {
+            console.log('');
+        }else {
+            localStorage.setItem('theme', 'dark');
+
+        }
+        var theme = localStorage.getItem("theme"); 
+        if (theme) {
+            dispatch(setMessage(theme));
+           
+        }else{
+            dispatch(setMessage(theme));
+        }
         var Page = localStorage.getItem("page");
         setPage(Page)
 
         if (theme === 'dark') {
             document.body.setAttribute('style', 'background-color: black !important;');
+      
         } else {
             document.body.setAttribute('style', 'background-color: #f5f6f7 !important;');
             setToggle(26)
         }
- 
     }, [0]);
 
   

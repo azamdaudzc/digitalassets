@@ -1,17 +1,21 @@
 import React from 'react'
 import DIGITALASSETS from '../../../assets/images/DIGITALASSETS.png'
-
-
+import { useDispatch, useSelector } from "react-redux";
 import social1 from '../../../assets/images/social1.png'
 import social2 from '../../../assets/images/social2.png'
 import social3 from '../../../assets/images/social3.png'
 import { Link } from 'react-router-dom'
 
 export default function LoginBox({ Access, ForgetPage, AccessButton, buttonTitle, innerTitle }) {
+
+    const { message } = useSelector((state) => state.message);
+    const theme_class = message;
+
+
     return (
         <>
 
-           <div className='Login_fluid'>
+           <div className={'Login_fluid'+' '+theme_class+'-bg-loginimg'}>
            <div className='container flxLoginPage'>
                 <div className='innder_container'>
                     <div className='Login_Box'>
