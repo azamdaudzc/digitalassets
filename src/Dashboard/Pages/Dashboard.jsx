@@ -15,6 +15,8 @@ import Index from "../LayoutIndex";
 
 export default function Dashboard() {
 
+
+    localStorage.setItem('page', 'home');
     const { message } = useSelector((state) => state.message);
     const theme_class = message;
 

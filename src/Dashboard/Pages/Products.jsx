@@ -6,6 +6,9 @@ import ScrollSection from './Sections/ScrollSection';
 import LayoutIndex from '../LayoutIndex';
 
 export default function Products() {
+
+    localStorage.setItem('page', 'product');
+    
     return (
         <>
 

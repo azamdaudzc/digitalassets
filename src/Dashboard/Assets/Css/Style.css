@@ -322,7 +322,7 @@ span.hzxcw {
   font-weight: 500;
 }
 .innnerScroller {
-  height: 490px;
+  height: 440px;
   overflow-y: auto;
 }
 .innnerScroller::-webkit-scrollbar {
@@ -765,7 +765,7 @@ h5.lightwhiteGeen {
 
 .container.sales.FIlterData {
   overflow: scroll;
-  height: 482px;
+  height: 450px;
 }
 
 

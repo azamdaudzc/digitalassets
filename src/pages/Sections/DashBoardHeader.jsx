@@ -116,17 +116,13 @@ export default function DashBoardHeader() {
                     <div className="header__menu ms-auto new class" id="dropmenudash">
                         <ul className="header__nav mb-0">
                             <li className="header__nav-item" onClick={() => PageToggle('home')}>
-
-
                                 <Link to={"/dashboard"} className={usePage === 'home' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Dashboard
                                 </Link>
-
                             </li>
 
-                            <li className="header__nav-item" onClick={() => PageToggle('about')}>
-
-                                <Link to={"/download"} className={usePage === 'about' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
+                            <li className="header__nav-item" onClick={() => PageToggle('downloads')}>
+                                <Link to={"/download"} className={usePage === 'downloads' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Downloads
                                 </Link>
                             </li>
@@ -134,17 +130,14 @@ export default function DashBoardHeader() {
                                 <Link to={"/products-dash"} className={usePage === 'product' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Products
                                 </Link>
-
                             </li> <li className="header__nav-item" onClick={() => PageToggle('Sales')}>
                                 <Link to={"/Sales"} className={usePage === 'Sales' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Sales
                                 </Link>
-
                             </li>   <li className="header__nav-item d-none" onClick={() => PageToggle('product')}>
                                 <Link to={"/products"} className={usePage === 'product' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>
                                     Sales
                                 </Link>
-
                             </li>
                             <li className="header__nav-item d-none" onClick={() => PageToggle('product')}>
                                 <Link to={"/products"} className={usePage === 'product' ? "header__nav-link active home-4 newDash" + ' ' + theme_class + '-text' : "header__nav-link home-4" + ' ' + theme_class + '-text'}>

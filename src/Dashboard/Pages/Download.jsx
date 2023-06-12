@@ -8,7 +8,7 @@ import LayoutIndex from '../LayoutIndex';
 
 export default function Download() {
 
-
+    localStorage.setItem('page', 'downloads');
 
 
 

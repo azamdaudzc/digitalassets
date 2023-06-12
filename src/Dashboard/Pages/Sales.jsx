@@ -22,6 +22,7 @@ import FilterData from './Sections/FilterData';
 
 export default function Sales() {
 
+    localStorage.setItem('page', 'Sales');
 
     const DataArry = [
         {
