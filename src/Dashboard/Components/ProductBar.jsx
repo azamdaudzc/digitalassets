@@ -36,7 +36,7 @@ export default function ProductBar({ AccessPrice, AccessButton, id }) {
     return (
         <>
 
-            <div className={'ProductBar' + ' ' + theme_class + 'dash-bg-bar'}>
+            <div className={'ProductBar' + ' ' + theme_class + 'dash-bg-bar'} id={'thisone'+id}>
                 <div className='innerProductbar'>
                     <div className='AProductBar'>
                         <div className='AImage'>
