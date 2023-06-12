@@ -59,7 +59,7 @@ label {
 }
 .footer-link-item.lastItem {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .footer-link-item.second {
   margin-right: 7px;
@@ -319,7 +319,7 @@ li.custom-selectt.zc select {
 }.new-bar.nextborm {
   background: #1b1b1b;
 }.colume.price.star .starRates {
-  justify-content: end;
+  justify-content: flex-end;
   display: flex;
   align-items: self-end;
 }.colume.price.star {
@@ -341,7 +341,7 @@ li.custom-selectt.zc select {
 }
 li.custom-selectt.zc {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 670px;
 }.all_review_bar {
   border-radius: 5px;
@@ -454,7 +454,7 @@ li.custom-selectt.zc select {
 }
 li.custom-selectt.zc {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 670px;
 }
 .profile-details
@@ -483,7 +483,7 @@ li.custom-selectt.zc {
 }
 .dots {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }li.single-author.align-items-center h6 {
   font-size: 24px;
 }.flexslide-text {
@@ -494,7 +494,7 @@ li.custom-selectt.zc {
   color: gray;
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   font-size: 13px;
   align-items: center;
 }.views-slide img {
@@ -574,7 +574,7 @@ ul.nav.nav-pills.mb-30.px-2.ewz {
   display: flex;
 }.flexg .starRates {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }.buttonbar {
   display: flex;
 }.buttonbar .rates {
@@ -582,13 +582,13 @@ ul.nav.nav-pills.mb-30.px-2.ewz {
 }.buttonbar .bgroup {
   display: flex;
   width: 60%;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .itembox2 {
   display: flex;
   width: 100%;
   text-align: center;
-  justify-content: end;
+  justify-content: flex-end;
 }.itembox2 p {
   color: gray;
   font-size: 12px !important;
@@ -632,7 +632,7 @@ ul.nav.nav-pills.mb-30.px-2.ewz {
 
 .colume.price {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .price h1 {
   margin-bottom: 5px;

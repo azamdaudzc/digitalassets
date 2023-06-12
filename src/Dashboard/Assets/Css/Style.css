@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 .flxLoginPage {
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
   justify-content: center;
   align-items: center;
@@ -17,9 +17,8 @@ body {
   align-items: center;
   display: grid;
   padding: 58px;
+  margin: 141px 0px;
   box-sizing: border-box;
-  position: absolute;
-  width: 663px;
   height: 722px;
   left: calc(50% - 663px / 2 + 0.5px);
   top: calc(50% - 722px / 2 + 0.5px);
@@ -351,7 +350,7 @@ span.hzxcw {
 .BProductBar {
   width: 25%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .StyleImgPro img {
@@ -390,7 +389,7 @@ span.hzxcw {
 .BProductBar {
   width: 25%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .ProductPricesF h5 {
@@ -461,7 +460,7 @@ span.hzxcw {
   border: solid 1px #ffffff29;
   padding: 2px 1px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .inputbox button {
   margin: 0px 0px;
@@ -738,7 +737,7 @@ a.header__nav-link.active.home-4.newDash.light-text::before {
 }
 .DData.unset-bg {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 h5.lightwhiteGeen {
