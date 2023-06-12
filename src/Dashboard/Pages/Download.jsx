@@ -23,7 +23,7 @@ export default function Download() {
             <div className='ProductDOwnlloadSection'>
 
                 <div className='container'>
-                    <ScrollSection AccessButton={'DOWNLOAD'} height={'622px'} Title={'Products Download'} />
+                    <ScrollSection AccessButton={'DOWNLOAD'} height={'580px'} Title={'Products Download'} />
                 </div>
 
             </div>

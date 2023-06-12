@@ -517,12 +517,15 @@ ul.nav.nav-pills.mb-30.px-2.ewz {
   background: #ffffff30;
 }
 .dots-run {
-  border-radius: 5px;
+  border-radius: 9px;
   display: flex;
+  border: 1px solid #FFFFFF1A;
   width: 174px;
   padding: 8px 11px;
-  border: solid 1px #ffffff59;
-}.opizxc {
+}
+
+
+.opizxc {
   padding: 15px 49px;
   display: flex;
 }.items-yog {
